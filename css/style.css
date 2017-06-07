@@ -1,0 +1,1562 @@
+@font-face {
+	font-family: 'Conv_Informa';
+	src: url('../fonts/InformaProCondensed-Bold.eot');
+	src: local('☺'), url('../fonts/InformaProCondensed-Bold.woff') format('woff'), url('../fonts/InformaProCondensed-Bold.ttf') format('truetype'), url('../fonts/InformaProCondensed-Bold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Informa';
+	src: url('../fonts/InformaProCondensed-Light.eot');
+	src: local('☺'), url('../fonts/InformaProCondensed-Light.woff') format('woff'), url('../fonts/InformaProCondensed-Light.ttf') format('truetype'), url('../fonts/InformaProCondensed-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Informa';
+	src: url('../fonts/InformaProCondensed-Medium.eot');
+	src: local('☺'), url('../fonts/InformaProCondensed-Medium.woff') format('woff'), url('../fonts/InformaProCondensed-Medium.ttf') format('truetype'), url('../fonts/InformaProCondensed-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Informa';
+	src: url('../fonts/InformaProCondensed-Normal.eot');
+	src: local('☺'), url('../fonts/InformaProCondensed-Normal.woff') format('woff'), url('../fonts/InformaProCondensed-Normal.ttf') format('truetype'), url('../fonts/InformaProCondensed-Normal.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Conv_Informa';
+	color: #252525;
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	transition: .15s;
+}
+a:active,
+a:focus{
+	outline: none;
+}
+.container,.wr-img{
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrapper{
+	position: relative;
+	width: 1920px;
+	background: url(../img/bg-body.png) no-repeat center top;
+	background-size: contain;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header__text_black{
+	color: #252525;
+}
+/*--- MENU ---*/
+.menu{
+	width: 100%;
+	height: 86px;
+	background: #607e15;
+	text-align: right;
+	padding-right: 40px;
+}
+.menu a{
+	position: relative;
+	display: inline-block;
+	height: 86px;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 86px;
+	padding: 0 18px;
+}
+.menu a:hover{
+	transform: scale(1.1);
+}
+.menu a.active:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 28px;
+	height: 3px;
+	background: #fff;
+	margin: auto;
+}
+/*--- HEADER ----*/
+.header__content{
+	padding-top: 450px;
+	margin-bottom: 175px;
+}
+.header__content h2{
+	color: #fff;
+	font-weight: 300;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 0 0 7px;
+	letter-spacing: 0.02em;
+}
+.header__block-left,
+.header__logo,
+.header__block-right{
+	float: left;
+}
+.header__block-left{
+	width: 37.55%;
+	height: 10px;
+}
+.header__logo{
+	width: 24.85%;
+}
+.header__logo h2{
+	text-align: center;
+	margin: 0;
+}
+.header__block-right{
+	width: 37.6%;
+	padding-left: 138px;
+}
+.header__img-logo{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 90px;
+}
+.header__content h2:first-child{
+	margin-top: -6px;
+}
+.header__tagline{
+	height: 137px;
+	padding-left: 35px;
+}
+.header__tagline p{
+	height: 137px;
+	line-height: 116px;
+	font-size: 77px;
+	margin: 0;
+}
+.header__tagline span:first-child{
+	font-weight: 600;
+}
+.header__tagline-right{
+	margin-left: 3px;
+}
+/*--- MAIN ---*/
+/*=- music-award -=*/
+.music-award{
+	color: #fff;
+	padding-left: 180px;
+	margin-bottom: 548px;
+}
+.music-award h2{
+	width: 550px;
+	font-size: 77px;
+	line-height: 79px;
+	text-transform: uppercase;
+	margin: 0 0 57px;
+	letter-spacing: 0.016em;
+}
+.music-award h2:before{
+	content: '';
+	position: absolute;
+	top: -86px;
+	left: 140px;
+	display: block;
+	width: 7px;
+	height: 1560px;
+	background: #fff;
+}
+.music-award__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.music-award__list li{
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 42px;
+}
+.music-award__list li:before{
+	content: '';
+	position: relative;
+	display: inline-block;
+	width: 18px;
+	height: 7px;
+	background: #8ab51d;
+	vertical-align: middle;
+	margin-right: 24px;
+	margin-left: -40px;
+}
+/*=- prize-fund -=*/
+
+.prize-fund{
+	margin-bottom: 770px;
+}
+.prize-fund h2,
+.prize-fund__money{
+	float: left;
+	width: 50%;
+	text-transform: uppercase;
+}
+.prize-fund h2{
+	font-size: 66px;
+	font-weight: 400;
+	text-align: right;
+	margin: 0;
+	padding-top: 81px;
+	padding-right: 45px;
+}
+.prize-fund__triangle{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 23px 23px 23px 0;
+	border-color: transparent #252525 transparent transparent;
+	margin-right: 36px;
+}
+.prize-fund__money{
+	color: #fff;
+	font-size: 66px;
+	font-weight: 300;
+	padding-left: 276px;
+}
+.prize-fund__money>p{
+	margin: 0;
+}
+.prize-fund__money span{
+	font-size: 155px;
+	font-weight: 600;
+	line-height: 178px;
+}
+.prize-fund__addition p{
+	font-size: 25px;
+	margin: -20px 0 0;
+
+}
+/*=- band-or-musician -=*/
+.band-or-musician{
+	position: relative;
+	height: 1649px;
+}
+.bom__block-left,
+.bom__block-right{
+	float: left;
+	width: 50%;
+}
+.bom__block-left h2{
+	float: left;
+	width: 372px;
+	font-size: 77px;
+	line-height: 78px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: right;
+	margin: 0 0 0 194px;
+	padding-top: 7px;
+	letter-spacing: 0.016em;
+}
+.bom__icn{
+	float: left;
+	padding-left: 86px;
+}
+.bom__icn i{
+	display: block;
+	width: 72px;
+	height: 60px;
+}
+.bom__icn-group{
+	margin-top: 15px;
+	margin-bottom: 98px;
+	background: url(../img/group.png) no-repeat center;
+}
+.bom__icn-musician{
+	background: url(../img/musician.png) no-repeat center;
+}
+.bom__description span{
+	position: absolute;
+	left: 50%;
+	margin-left: -142px;
+	display: block;
+	width: 284px;
+	height: 284px;
+	line-height: 265px;	
+	border-radius: 50%;
+	border: 8px solid #8ab51d;
+	text-transform: uppercase;
+	text-align: center;
+	color: #8ab51d;
+	font-weight: 300;
+}
+.bom__description span:after{
+	content: '';
+	position: absolute;
+	top: 272px;
+	left: 50%;
+	margin-left: -4px;
+	display: block;
+	width: 8px;
+	height: 326px;
+	background: #8ab51d;
+}
+.bom__description .bom__you{
+	top: -16px;
+	font-size: 95px;
+}
+.bom__description .bom__we{
+	top: 583px;
+	font-size: 95px;
+}
+.bom__description .bom__experts{
+	top: 1184px;
+	font-size: 61px;
+	line-height: 273px;
+	letter-spacing: -3px;
+}
+.bom__description .bom__experts:after{
+	top: 130px;
+	width: 326px;
+	height: 8px;
+	margin-left: -464px;
+}
+.bom__description p{
+	max-width: 73%;
+	font-size: 25px;
+	line-height: 29px;
+	padding-left: 203px;
+	margin: 0 0 457px;
+}
+.bom__description:first-child p{
+	padding-top: 32px;
+}
+.bom__description:nth-child(2) p{
+	max-width: 93%;
+	margin-bottom: 482px;
+}
+.bom__description:last-child p{
+	margin-bottom: 28px;
+}
+.bom__organizers-list{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	width: 465px;
+	font-size: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0 170px 0 0;
+}
+.bom__organizers-list li span{
+	font-weight: 600;
+}
+/*=- participate -=*/
+.participate{
+	position: relative;
+	text-align: center;
+}
+.participate h2{
+	text-transform: uppercase;
+	font-weight: 600 !important;
+	font-size: 117px;
+	color: #343434;
+	font-weight: 500;
+	margin-top: 232px;
+	margin-bottom: 88px;
+}
+.participate__btn{
+	display: inline-block;
+	height: 86px;
+	line-height: 62px;
+	font-size: 54px;
+	border: 7px solid #8ab51d;
+	border-radius: 43px;
+	padding: 0 42px;
+	cursor: pointer;
+	transition: background .15s;
+}
+.participate__btn:hover{
+	background: #8ab51d;
+	color: #fff;
+}
+.participate__btn:before,
+.participate__btn:after{
+	content: '';
+	position: absolute;
+	bottom: 36px;
+	display: block;
+	width: 708px;
+	height: 7px;
+	background: #292929;
+}
+.participate__btn:before{
+	left: 0;
+}
+.participate__btn:after{
+	right: 0;
+}
+/*--- FOOTER ---*/
+.footer{
+	height: 350px;
+	text-align: center;
+	padding-top: 124px;
+}
+.footer__icn-facebbok,
+.footer__icn-instagram{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 0 6px;
+}
+.footer__icn-facebbok{
+	background: url(../img/facebook.png) no-repeat center;
+}
+.footer__icn-facebbok:hover{
+	background: url(../img/facebook-hover.png) no-repeat center;
+}
+.footer__icn-instagram{
+	background: url(../img/instagram.png) no-repeat center;
+}
+.footer__icn-instagram:hover{
+	background: url(../img/instagram-hover.png) no-repeat center;
+}
+.footer__news p{
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+/*--- FORM ---*/
+.form-registration{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.form__container{
+	position: relative;
+	width: 375px;
+	height: 560px;
+}
+.wr-form__card{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 375px;
+}
+.form__step{
+	position: relative;
+	width: 375px;
+	height: 440px;
+	border-radius: 0 17px 8px 17px;
+}
+.wr-form__card h2{
+	font-size: 45px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 50px 0;
+}
+.wr-form__card h2 span{
+	text-transform: lowercase;
+}
+.step-1{
+	background: #d8d8d8;
+	padding-top: 89px;
+}
+.step-2{
+	background: url(../img/bg-step-2.jpg) no-repeat;
+	background-size: 100%;
+}
+.step-3{
+	background: url(../img/bg-step-3.jpg) no-repeat;
+	background-size: 100%;
+}
+.form__row{
+	position: relative;
+	width: 255px;
+	margin: 0 auto 38px;
+}
+input:focus{
+	outline: none;
+}
+.form__card-1{
+	z-index: 300;
+	opacity: 1;
+}
+.form__card-2{
+	z-index: 200;
+	opacity: 0;
+}
+.form__card-3{
+	z-index: 100;
+	opacity: 0;
+}
+/*=- Pop-up -=*/
+.close-pop-up{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: 205px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border: 2px solid #8ab51d;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 1000;
+}
+.close-pop-up:hover{
+	color: #fff;
+	background: #ee2000;
+	border: 2px solid #ee2000;
+}
+.pop-up{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(255,255,255,.95);
+	z-index: 1000;
+}
+/*=- button form -=*/
+.form__btn-green{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 187px;
+	height: 37px;
+	color: #fff;
+	background: #8ab51d;
+	text-transform: uppercase;
+	font-weight: 300;
+	border: 0;
+	border-radius: 8px 0;
+	cursor: pointer;
+}
+.form__btn-green:focus,
+.form__btn-green:active{
+	outline: none;
+}
+.form__btn-green:hover{
+	background: #607e15;
+}
+.form__btn-gray{
+	background: #818181;
+	font-size: 19px;
+	color: #fff;
+	margin-bottom: 15px;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.form__btn-gray:focus,
+.form__btn-gray:active{
+	outline: none;
+}
+.form__btn-gray:hover{
+	background: #676767;
+}
+/*=- step-1 -=*/
+.step-1 .form__row label{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 22px;
+}
+.step-1 input{
+	float: right;
+	width: 169px;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 12px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 9px;
+	font-size: 22px;
+}
+/*=- step-2 -=*/
+.step-2{
+	color: #fff;
+	padding-top: 50px;
+}
+.form__radio,
+.form__nominations{
+	width: 255px;
+	margin: 0 auto;
+}
+.form__radio-left,
+.form__radio-right{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.form__radio label{
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.form__radio input{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+}
+.checkbox__row{
+	margin-bottom: 20px;
+	padding-left: 60px;
+}
+.checkbox__row input{
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+.checkbox__row label{
+	font-size: 22px;
+}
+.form__nominations h3{
+	font-size: 29px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+}
+/*=- step-3 -=*/
+.step-3{
+	padding-top: 50px;
+	color: #fff;
+}
+.step-3 input{
+	width: 255px;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 12px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 9px;
+	font-size: 22px;
+}
+.step-3 .form__row{
+	width: 257px;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.step-3 .form__row label{
+	display: block;
+	margin-bottom: 5px;	
+}
+.download-file{
+	text-align: center;
+}
+.download-file p{
+	text-align: center;
+	margin: 5px 0 10px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+	box-shadow: inset 0 0 3px 1px #607e15;
+	font-size: 20px;
+}
+
+.input-hint{
+	position: absolute;
+	top: -75px;
+	display: none;
+	width: 255px;
+	padding: 10px;
+	border: 1px solid #ee2000;
+	background: #fff;
+	border-radius: 4px;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	z-index: 1100;
+}
+.error{
+	position: absolute;
+	top: 22px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 255px;
+	color: #ee2000;
+	font-weight: 500;
+	font-size: 19px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 10px;
+	background: #fff9f9;
+	border-radius: 6px;
+	border: 1px solid #ee2000;	
+}
+.errorTel{
+	position: absolute;
+	top: -20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 255px;
+	color: #ee2000;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	text-align: right;
+}
+input{
+	letter-spacing: 0.05em;
+}
+#FileMp3{
+	position: absolute;
+	left: -9999px;
+}
+label{
+	cursor: pointer;
+}
+@media screen and (max-width: 1919px){
+	.wrapper{
+		width: 1680px;
+	}
+	/*--- MENU ---*/
+	.menu,
+	.menu a{
+		height: 70px;
+	}
+	.menu a{
+		line-height: 70px;
+		font-size: 26px;
+	}
+	/*--- HEADER ---*/
+	.header__content{
+		padding-top: 397px;
+		margin-bottom: 154px;
+	}
+	.header__img-logo{
+		margin-bottom: 81px;
+	}
+	.header__block-right{
+		padding-left: 123px;
+	}
+	.header__content h2{
+		font-size: 20px;
+		letter-spacing: 0.01em;
+	}
+	.header__tagline{
+		height: 118px;
+	}
+	.header__tagline p{
+		height: 118px;
+		font-size: 67px;
+		line-height: 98px;
+	}
+	/*--- MAIN ---*/
+	.music-award h2:before{
+		top: -70px;
+		left: 114px;
+		height: 1374px;
+	}
+	.music-award h2{
+		font-size: 71px;
+		line-height: 71px;
+		margin-bottom: 48px;
+		letter-spacing: -1px;
+	}
+	.music-award{
+		padding-left: 154px;
+		margin-bottom: 462px;
+	}
+	.music-award__list li{
+		font-size: 36px;
+		line-height: 38px;
+	}
+	.prize-fund h2{
+		font-size: 57px;
+	}
+	.prize-fund__triangle{
+		border-width: 20px 20px 20px 0;
+	}
+	.prize-fund__money{
+		padding-left: 227px;
+		font-size: 58px;
+	}
+	.prize-fund__money span{
+		font-size: 140px;
+	}
+	.prize-fund__addition p{
+		font-size: 20px;
+		margin-top: -29px;
+		padding-left: 3px;
+	}
+	.prize-fund{
+		margin-bottom: 670px;
+	}
+	.bom__block-left h2{
+		width: 330px;
+		font-size: 71px;
+		line-height: 71px;
+		margin-left: 165px;
+		letter-spacing: -1px;
+	}
+	.bom__icn{
+		padding-left: 72px;
+	}
+	.bom__icn-group{
+		margin-bottom: 77px;
+	}
+	.bom__icn-group{
+		background-size: 80%; 
+	}
+	.bom__icn-musician{
+		background-size: 50%; 
+	}
+	.bom__description span{
+		width: 256px;
+		height: 256px;
+		margin-left: -128px;
+	}
+	.bom__description span:after{
+		top: 244px;
+		height: 284px;
+	}
+	.bom__description .bom__you,
+	.bom__description .bom__we{
+		font-size: 86px;
+		line-height: 242px;
+	}
+	.bom__description .bom__we{
+		top: 516px;
+	}
+	.bom__description .bom__experts{
+		top: 1048px;
+		font-size: 51px;
+		line-height: 242px;
+		letter-spacing: -2px;
+	}
+	.bom__description .bom__experts:after{
+		top: 115px;
+		width: 290px;
+		margin-left: -412px;
+	}
+	.bom__organizers-list{
+		width: 410px;
+		font-size: 20px;
+	}
+	.band-or-musician{
+		height: 1442px;
+	}
+	.bom__description p{
+		padding-left: 179px;
+		max-width: 71%;
+		line-height: 27px;
+		margin-bottom: 362px;
+	}
+	.bom__description:first-child p{
+		padding-top: 28px;
+	}
+	.bom__description:nth-child(2) p{
+		max-width: 88%;
+		margin-bottom: 402px;
+	}
+	.bom__description:last-child p{
+		max-width: 80%;
+	}
+	.participate h2{
+		font-size: 103px;
+		margin-top: 206px;
+		margin-bottom: 76px;
+	}
+	.participate__btn{
+		height: 78px;
+		line-height: 55px;
+		border-radius: 39px;
+		border: 5px solid #8ab51d;
+		font-size: 47px;
+		padding: 0 38px;
+	}
+	.participate__btn:before, .participate__btn:after{
+		width: 622px;
+		bottom: 32px;
+	}
+	.footer{
+		height: 290px;
+		padding-top: 108px;
+	}
+}
+@media screen and (max-width: 1679px){
+	.wrapper{
+		width: 1440px;
+	}
+	.header__content{
+		padding-top: 330px;
+	}
+	.header__block-right{
+		padding-left: 100px;
+	}
+	.header__content{
+		margin-bottom: 136px;
+	}
+	.header__content h2{
+		font-size: 17px;
+	}
+	.header__tagline p{
+		font-size: 56px;
+		line-height: 87px;
+	}
+	.header__tagline-right{
+		letter-spacing: 1px;
+		margin-left: 6px;
+	}
+	.header__img-logo{
+		margin-bottom: 70px;
+	}
+	.music-award{
+		padding-left: 140px;
+		margin-bottom: 385px;
+	}
+	.music-award h2{
+		font-size: 62px;
+		line-height: 60px;
+		margin-bottom: 42px;
+	}
+	.music-award__list li:before{
+		width: 14px;
+		margin-left: -26px;
+		margin-right: 15px;
+	}
+	.music-award__list li{
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.music-award h2:before{
+		width: 5px;
+		height: 1185px;
+		left: 114px;
+	}
+	.prize-fund h2{
+		font-size: 48px;
+		letter-spacing: -1px;
+	}
+	.prize-fund__triangle{
+		border-width: 16px 16px 16px 0;
+	}
+	.prize-fund__money{
+		padding-left: 196px;
+	}
+	.prize-fund__money span{
+		font-size: 120px;
+	}
+	.prize-fund__addition p{
+		font-size: 17px;
+		margin-top: -38px;
+		padding-left: 3px;
+	}
+	.prize-fund__money>p{
+		font-size: 48px;
+	}
+	.bom__block-left h2{
+		width: 270px;
+		font-size: 62px;
+		line-height: 60px;
+	}
+	.prize-fund{
+		margin-bottom: 574px;
+	}
+	.bom__icn{
+		padding-left: 53px;
+	}
+	.bom__icn-group{
+		background-size: 74%;
+		margin-top: 7px;
+		margin-bottom: 60px;
+	}
+	.bom__icn-musician{
+		background-size: 45%;
+	}
+	.bom__description span{
+		width: 224px;
+		height: 224px;
+		margin-left: -112px;
+		border: 6px solid #8ab51d;
+	}
+	.bom__description .bom__you, .bom__description .bom__we{
+		font-size: 73px;
+		line-height: 213px;
+	}
+	.bom__description .bom__we{
+		top: 440px;
+	}
+	.bom__description .bom__experts{
+		top: 896px;
+		font-size: 40px;
+		line-height: 224px;
+		text-transform: uppercase;
+		letter-spacing: 0;
+	}
+	.bom__description p{
+		padding-left: 155px;
+		font-size: 18px;
+		line-height: 22px;
+		padding-top: 25px;
+		margin-bottom: 320px;
+	}
+	.bom__description:nth-child(2) p{
+		margin-bottom: 340px;
+	}
+	.bom__description:last-child p{
+		margin-bottom: 0;
+	}
+	.bom__description span:after{
+		top: 213px;
+		height: 240px;
+		width: 6px;
+	}
+	.bom__description .bom__experts:after{
+		top: 100px;
+	    width: 240px;
+	    height: 6px;
+	    margin-left: -350px;
+	}
+	.bom__organizers-list{
+		width: 352px;
+		font-size: 18px;
+		padding: 0 150px 0 0;
+	}
+	.band-or-musician{
+		height: 1243px;
+	}
+	.participate h2{
+		font-size: 88px;
+		margin-bottom: 64px;
+		margin-top: 173px;
+	}
+	.participate__btn{
+		font-size: 40px;
+	    height: 66px;
+	    line-height: 52px;
+	    border: 4px solid #8ab51d;
+	}
+	.participate__btn:before, .participate__btn:after{
+		width: 529px;
+		height: 5px;
+		bottom: 28px;
+	}
+	.footer{
+		padding-top: 94px;
+	}
+}
+@media screen and (max-width: 1439px){
+	.wrapper{
+		width: 1366px;
+	}
+	.menu, .menu a{
+		height: 58px;
+		line-height: 58px;
+		font-size: 20px;
+	}
+	.header__content{
+		padding-top: 322px;
+		margin-bottom: 127px;
+	}
+	.header__content h2:first-child{
+		margin-top: -4px;
+	}
+	.header__content h2{
+		font-size: 16px;
+	}
+	.header__tagline p{
+		font-size: 53px;
+		line-height: 78px;
+	}
+	.header__tagline{
+		padding-left: 31px;
+	}
+	.header__img-logo{
+		margin-bottom: 65px;
+	}
+	.music-award h2{
+		width: 360px;
+		font-size: 55px;
+		line-height: 58px;
+		letter-spacing: 1px;
+		margin-bottom: 38px;
+	}
+	.music-award{
+		padding-left: 134px;
+		margin-bottom: 361px;
+	}
+	.music-award__list li{
+		line-height: 31px;
+	}
+	.music-award__list li:before{
+		margin-right: 18px;
+		margin-left: -31px;
+		height: 5px;
+	}
+	.music-award h2:before{
+		left: 103px;
+		height: 1127px;
+	}
+	.prize-fund{
+		margin-bottom: 556px;
+	}
+	.prize-fund h2{
+		padding-right: 29px;
+		font-size: 45px;
+		letter-spacing: 0.007em;
+	}
+	.prize-fund__triangle{
+		margin-right: 24px;
+	}
+	.prize-fund__money span{
+		font-size: 110px;
+		line-height: 168px;
+	}
+	.prize-fund__money{
+		padding-left: 189px;
+	}
+	.prize-fund__money>p{
+		font-size: 46px;
+	}
+	.prize-fund__addition p{
+		margin-left: 0;
+		margin-top: -35px;
+	}
+	.bom__block-left h2{
+		width: 254px;
+		font-size: 55px;
+		line-height: 58px;
+		margin-left: 157px;
+		padding-top: 0;
+		letter-spacing: 1px;
+	}
+	.bom__icn{
+		padding-left: 51px;
+	}
+	.bom__icn-group{
+		margin-top: 0;
+		margin-bottom: 52px;
+	}
+	.bom__description span{
+		width: 204px;
+		height: 204px;
+		margin-left: -102px;
+	}
+	.bom__description .bom__you, .bom__description .bom__we{
+		font-size: 71px;
+		line-height: 185px;
+		text-transform: uppercase;
+	}
+	.bom__description p{
+		font-size: 17px;
+		line-height: 21px;
+		padding-left: 147px;
+		padding-top: 24px;
+		margin-bottom: 304px;
+	}
+	.bom__description:first-child p{
+		padding-top: 20px;
+	}
+	.bom__description .bom__we{
+		top: 415px;
+	}
+	.bom__description .bom__experts{
+		top: 848px;
+		font-size: 39px;
+		line-height: 194px;
+	}
+	.bom__description:nth-child(2) p{
+		margin-bottom: 322px;
+	}
+	.bom__description span:after{
+		top: 195px;
+		height: 234px;
+	}
+	.bom__description .bom__experts:after{
+		width: 234px;
+		top: 93px;
+		margin-left: -333px;
+	}
+	.band-or-musician{
+		height: 1176px;
+	}
+	.bom__organizers-list{
+		width: 334px;
+		font-size: 17px;
+		padding-right: 130px;
+	}
+	.participate h2{
+		font-size: 84px;
+		margin-top: 164px;
+		margin-bottom: 60px;
+	}
+	.participate__btn{
+		height: 62px;
+		font-size: 39px;
+		line-height: 48px;
+		padding: 0 30px;
+	}
+	.participate__btn:before, .participate__btn:after{
+		width: 502px;
+		bottom: 26px;
+	}
+	.footer{
+		height: 274px;
+		padding-top: 90px;
+	}
+	/*--- FORM ---*/
+	.wr-form__card h2{
+		margin: 30px 0;
+	}
+}
+@media screen and (max-width: 1359px){
+	.wrapper{
+		width: 1280px;
+	}
+	.header__content{
+		padding-top: 298px;
+		margin-bottom: 119px;
+	}
+	.header__content h2{
+		font-size: 15px;
+		margin-top: 5px;
+	}
+	.header__content h2:first-child{
+		margin-bottom: -2px;
+	}
+	.header__block-right{
+		padding-left: 92px;
+	}
+	.header__tagline{
+		padding-left: 30px;
+	}
+	.header__tagline p{
+		font-size: 50px;
+		line-height: 83px;
+	}
+	.header__tagline-right{
+		margin-left: 3px;
+	}
+	.header__img-logo{
+		margin-bottom: 63px;
+	}
+	.music-award h2{
+		font-size: 54px;
+		line-height: 53px;
+		letter-spacing: 0px;
+	}
+	.music-award{
+		padding-left: 124px;
+		margin-bottom: 337px;
+	}
+	.music-award__list li{
+		line-height: 28px;
+	}
+	.music-award h2:before{
+		left: 93px;
+		height: 1062px;
+	}
+	.prize-fund{
+		margin-bottom: 515px;
+	}
+	.prize-fund h2{
+		font-size: 42px;
+	}
+	.prize-fund__triangle{
+		border-width: 14px 14px 14px 0;
+	}
+	.prize-fund__money{
+		padding-left: 175px;
+	}
+	.prize-fund__money span{
+		font-size: 105px;
+	}
+	.prize-fund__money>p{
+		font-size: 44px;
+	}
+	.bom__block-left h2{
+		font-size: 54px;
+		line-height: 53px;
+		letter-spacing: 0px;
+		margin-left: 131px;
+	}
+	.bom__icn{
+		padding-left: 45px;
+	}
+	.bom__icn-group{
+		margin-bottom: 39px;
+		background-size: 65%;
+	}
+	.bom__icn-musician{
+		background-size: 37%;
+	}
+	.bom__description span{
+		width: 192px;
+		height: 192px;
+		margin-left: -96px;
+	}
+	.bom__description .bom__you, .bom__description .bom__we{
+		font-size: 66px;
+		line-height: 175px;
+	}
+	.bom__description span:after{
+		top: 185px;
+		height: 216px;
+	}
+	.bom__description .bom__we{
+		top: 389px;
+	}
+	.bom__description .bom__experts{
+		top: 794px;
+		font-size: 37px;
+		line-height: 184px;
+	}
+	.bom__description .bom__experts:after{
+		top: 87px;
+		width: 216px;
+		margin-left: -312px;
+	}
+	.bom__description p{
+		padding-left: 137px;
+		line-height: 20px;
+		margin-bottom: 282px;
+	}
+	.bom__description:nth-child(2) p{
+		margin-bottom: 290px;
+	}
+	.bom__description:last-child p{
+		margin-bottom: -4px;
+	}
+	.bom__organizers-list{
+		width: 312px;
+		padding-right: 117px;
+	}
+	.band-or-musician{
+		height: 1107px;
+	}
+	.participate h2{
+		font-size: 78px;
+		margin-top: 148px;
+		margin-bottom: 58px;
+	}
+	.participate__btn{
+		height: 58px;
+		font-size: 36px;
+		line-height: 45px;
+	}
+	.participate__btn:before, .participate__btn:after{
+		width: 470px;
+		bottom: 24px;
+	}
+}
+@media screen and (max-width: 1279px){
+	.wrapper{
+		width: 1024px;
+	}
+	.menu, .menu a{
+		height: 50px;
+		line-height: 50px;
+	}
+	.menu a.active:after{
+		width: 24px;
+	}
+	.header__content{
+		padding-top: 236px;
+		margin-bottom: 94px;
+	}
+	.header__img-logo{
+		margin-bottom: 46px;
+	}
+	.header__block-right{
+		padding-left: 74px;
+	}
+	.header__tagline{
+		padding-left: 22px;
+	}
+	.header__tagline p{
+		font-size: 40px;
+		line-height: 58px;
+	}
+	.header__content h2{
+		font-size: 14px;
+		font-weight: 400;
+		margin-top: 2px;
+	}
+	.header__content h2 span{
+		color: #252525;
+	}
+	.header__content h2:first-child{
+		margin-bottom: -2px;
+	}
+	.header__img-logo{
+		margin-bottom: 49px;
+	}
+	.music-award h2{
+		width: 290px;
+		font-size: 44px;
+		line-height: 43px;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+	.music-award{
+		padding-left: 98px;
+		margin-bottom: 252px;
+	}
+	.music-award__list li{
+		font-size: 24px;
+		line-height: 23px;
+	}
+	.music-award h2:before{
+		left: 76px;
+		width: 4px;
+		height: 864px;
+	}
+	.music-award__list li:before{
+		width: 10px;
+		height: 4px;
+		margin-right: 14px;
+		margin-left: -22px;
+	}
+	.prize-fund{
+		margin-bottom: 413px;
+	}
+	.prize-fund h2{
+		font-size: 34px;
+		padding-right: 22px;
+	}
+	.prize-fund__triangle{
+		margin-right: 16px;
+		border-width: 12px 12px 12px 0;
+	}
+	.prize-fund__money{
+		padding-left: 142px;
+	}
+	.prize-fund__money span{
+		font-size: 84px;
+	}
+	.prize-fund__money>p{
+		font-size: 34px;
+	}
+	.prize-fund__addition p{
+		font-size: 15px;
+		padding-left: 0;
+		margin-top: -45px;
+	}
+	.bom__block-left h2{
+		width: 200px;
+		font-size: 44px;
+		line-height: 43px;
+		margin-left: 108px;
+		margin-top: -5px;
+	}
+	.bom__icn{
+		padding-left: 40px;
+	}
+	.bom__icn i{
+		width: 50px;
+		height: 37px;
+	}
+	.bom__icn-group{
+		background-size: 72%;
+		margin-bottom: 48px;
+	}
+	.bom__icn-musician{
+		background-size: 42%;
+	}
+	.bom__description span{
+		width: 152px;
+		height: 152px;
+		margin-left: -76px;
+	    border: 4px solid #8ab51d;
+	}
+	.bom__description .bom__you, .bom__description .bom__we{
+		font-size: 52px;
+		line-height: 139px;
+	}
+	.bom__description span:after{
+		top: 146px;
+		width: 4px;
+		height: 176px;
+	}
+	.bom__description .bom__we{
+		top: 308px;
+	}
+	.bom__description .bom__experts{
+		top: 633px;
+		font-size: 29px;
+		line-height: 146px;
+	}
+	.bom__description .bom__experts:after{
+		height: 4px;
+		width: 176px;
+		top: 70px;
+		margin-left: -250px;
+	}
+	.bom__description:first-child p{
+		padding-top: 0;
+		padding-left: 100px;
+		font-size: 16px;
+		line-height: 17px;
+		margin-bottom: 215px;
+	}
+	.bom__description p{
+		padding-top: 0;
+		padding-left: 100px;
+	}
+	.bom__description:nth-child(2) p{
+		margin-bottom: 219px;
+	}
+	.bom__description:last-child p{
+		margin-bottom: 14px;
+	}
+	.bom__organizers-list{
+		width: 250px;
+		padding-right: 55px;
+		font-size: 16px;
+	}
+	.band-or-musician{
+		height: 912px;
+	}
+	.participate h2{
+		font-size: 63px;
+		margin-top: 89px;
+		margin-bottom: 46px;
+	}
+	.participate__btn{
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.participate__btn:before, .participate__btn:after{
+		width: 376px;
+		height: 4px;
+		bottom: 25px;
+	}
+	.footer{
+		height: 200px;
+		padding-top: 68px;
+	}
+	.container{
+		overflow: visible;
+		width: 1024px;
+	}
+}
+
+
+

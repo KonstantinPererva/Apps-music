@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Главная</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				<nav class="menu">
+					<a href="#" class="active">RU</a>
+					<a href="#">EN</a>
+				</nav>
+				<header class="header">
+					<div class="header__content clearfix">
+						<div class="header__block-left"></div>
+						<div class="header__logo">
+							<img src="img/logo.png" alt="Logo" class="header__img-logo">
+							<h2>
+								Независимый проект
+							</h2>
+						</div>
+						<div class="header__block-right">
+							<h2>
+								Все оттенки рока
+							</h2>
+							<h2>
+								Все оттенки электронн<span>ой</span> 
+								<span class="header__text_black">
+									музыки
+								</span>
+							</h2>
+							<div class="header__tagline">
+								<p>
+									<span>apps</span>олютный <span class="header__tagline-right">indie</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="music-award">
+					<h2>
+						Украинская музыкальная премия
+					</h2>
+					<ul class="music-award__list">
+						<li>прорыв года</li>
+						<li>клип года</li>
+						<li>хит года</li>
+					</ul>
+				</div>
+				<div class="prize-fund clearfix">
+					<h2><i class="prize-fund__triangle"></i>Призовой фонд</h2>
+					<div class="prize-fund__money clearfix">
+						<p><span>40 000</span>uan</p>
+						<div class="prize-fund__addition">
+							<p>+ рост популярности</p>
+						</div>
+					</div>
+				</div>
+				<div class="band-or-musician clearfix">
+					<div class="bom__block-left clearfix">
+						<h2>
+							Группа или музыкант
+						</h2>
+						<div class="bom__icn">
+							<i class="bom__icn-group"></i>
+							<i class="bom__icn-musician"></i>
+						</div>
+						<ul class="bom__organizers-list">
+							<li>редактор <span>Li Room</span>  </li>
+							<li>редактор <span>Karabas Music</span></li>
+							<li>промоутер Евгений Кибец (Sentrum)</li>
+							<li>редактор <span>Top DJ</span></li>
+							<li>редактор <span>The Flow</span></li>
+							<li>Сергей Любинский (саунд продюсер)</li>
+							<li>Валерий Бебко <span>(Hardkiss)</span></li>
+							<li>Андрей Зоин <span>(Respublica Fest)</span></li>
+						</ul>
+					</div>
+					<div class="bom__block-right">
+						<div class="bom__description">
+							<span class="bom__you">
+								вы
+							</span>
+							<p>
+								О подъеме украинской сцены не говорит сейчас только ленивый. Мало кому известные еще вчера артисты и группы сегодня собирают тысячные залы. Это будоражит но и создает для артистов условия обостренной конкуренции. Талантов много, способов быть замеченным - нет.
+							</p>
+						</div>
+						<div class="bom__description">
+							<span class="bom__we">
+								мы
+							</span>
+							<p>
+								<strong>APPS Music</strong> — это платформа, помогающая изучить состояние нашей независимой сцены и найти новых звезд. Возможно, это именно ты. Наша миссия: фильтровать контент и самый "сидр" предоставлять движущей силе музыкального рынка.
+							</p>
+						</div>
+						<div class="bom__description">
+							<span class="bom__experts">
+								эксперты
+							</span>
+							<p>
+								Участие в проекте APPS Music — это шанс попасть во внимание "движущей силы" музыкального рынка.
+							</p>
+							<p>
+								Наше жюри состоит из экспертов медиа, концертных организаторов и музыкантов.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="participate">
+					<h2>Ты готов?</h2>
+					<div class="participate__btn" id="participateBtn">
+						принять участие
+					</div>
+				</div>
+
+				<footer class="footer">
+					<div class="footer__news">
+						<a href="#" class="footer__icn-facebbok"></a>
+						<a href="#" class="footer__icn-instagram"></a>
+						<p>Новости проекта</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<!-- POP_UP -->
+		<div class="pop-up" id="popUp">
+			<span class="close-pop-up" id="closePopUp">&#10008;</span>
+			<form action="!" method="post" class="form-registration" id="formRegistration" enctype="multipart/form-data">
+				<div class="form__container">
+					<div class="wr-form__card form__card-1">
+						<h2>Шаг 1 <span>из</span> 3</h2>
+						<div class="step-1 form__step">
+							<div class="form__row clearfix">
+								<label for="name">Логин</label>
+								<input type="text" name="name" id="name">
+							</div>
+							<div class="form__row clearfix">
+								<label for="PhoneEmail">@/Тел.</label>
+								<input type="text" name="phone-email" id="PhoneEmail">
+								<div class="input-hint" id="hintPhone">
+									Формат ввода номера телефона:
+									<span>+380971234567</span>
+									или
+									<span>0971234567</span>
+								</div>
+							</div>
+							<div class="form__row clearfix">
+								<label for="city">Город</label>
+								<input type="text" name="city" id="city">
+							</div>
+							<div class="form__row clearfix">
+								<label for="password">Пароль</label>
+								<input type="password" name="password" id="password">
+							</div>
+							<button type="button" id="btnCard_1" class="form__btn-green">Шаг 2</button>
+						</div>
+					</div>
+					<div class="wr-form__card form__card-2">
+						<h2>Шаг 2 <span>из</span> 3</h2>
+						<div class="step-2 form__step">
+							<div class="form__radio clearfix">
+								<div class="form__radio-left">
+									<label for="group">Группа</label>
+									<input type="radio" value="group" name="sing" id="group">
+								</div>
+								<div class="form__radio-right">
+									<label for="solo">Сольно</label>
+									<input type="radio" value="solo" name="sing" id="solo" checked>
+								</div>
+							</div>
+							<div class="form__nominations">
+								<h3>Номинации</h3>
+								<div class="checkbox__row">
+									<input type="checkbox" name="nominations" value="album" id="album">
+									<label for="album">Альбом года</label>
+								</div>
+								<div class="checkbox__row">
+									<input type="checkbox" name="nominations" value="hit" checked id="hit">
+									<label for="hit">Хит года</label>
+								</div>
+								<div class="checkbox__row">
+									<input type="checkbox" name="nominations" value="clip" checked id="clip">
+									<label for="clip">Клип года</label>
+								</div>
+							</div>
+							<button type="button" id="btnCard_2" class="form__btn-green">Шаг 3</button>
+						</div>
+					</div>
+					<div class="wr-form__card form__card-3">
+						<h2>Шаг 3 <span>из</span> 3</h2>
+						<div class="step-3 form__step">
+							<div class="form__row">
+								<label for="linkFacebook">1. Ссылка на профиль в Facebook</label>
+								<input type="text" name="linkFacebook" id="linkFacebook">
+							</div>
+							<div class="form__row">
+								<label for="linkTrack">2. Ссылка на трек</label>
+								<input type="text" name="linkTrack" placeholder="http://soundcloud.com/...">
+								<input type="file" id="FileMp3" id="linkTrack">
+								<div class="download-file">
+									<p>или</p>
+									<button type="button" class="form__btn-gray" id="downloadFile">загрузить .mp3</button>
+								</div>
+							</div>
+							<div class="form__row">
+								<label for="linkClip">3. Ссылка на клип</label>
+								<input type="text" name="linkClip" placeholder="http://soundcloud.com/..." id="linkClip">
+							</div>
+							<button type="button" id="submitForm" class="form__btn-green">Готово</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- SCRIPT -->
+		<script src="js/common.js"></script>
+	</body>
+</html>
